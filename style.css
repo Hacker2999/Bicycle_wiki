@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+table{
+    width: 100%;
+    margin-left: 3px;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+th, td, tr {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  vertical-align: middle;
+     border: 1px solid grey;
+}
+
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
+/*Шапка*/
+.logo {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.logo h1 {
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+header img {
+    margin-top: 10px;
+    width: 40%;
+}
+
+header ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+header li {
+    padding-left: 20px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #edc227;
+}
+
+.usedlink {
+    color: #edc227;
+}
+
+/*Тело*/
+.maincontent {
+    font-size: 16pt;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    flex: 1;
+}
+.pict img{
+   width: 100%;
+}
+
+video {
+    margin-top: 30px;
+    width: 900px;
+
+}
+h1{
+    margin: 0 auto;
+}
+h2{
+    margin: 0 auto;
+}
+h3{
+    margin: 0 auto;
+}
+audio {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+/*футер*/
+footer {
+    flex-shrink: 0;
+    background-color: rgba(167, 167, 167, 0.514);
+}
+
+footer p {
+
+    color: black;
+    font-weight: bolder;
+    font-size: 18pt;
+
+}
